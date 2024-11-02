@@ -745,7 +745,7 @@ drawbar(Monitor *m)
 			drw_rect(drw, x, 0, w, bh, 1, 1);
 		}
 	}
-	char *companyname = "Lazypic,LLC"; // Set Company name 
+	char *companyname = "Lazypic,LLC."; // Set Company name 
 	w = TEXTW(companyname);
 	x = m->ww - w; // set right edge
 	drw_text(drw, x, 0, w, bh, 0, companyname, 0);
